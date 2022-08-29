@@ -5,7 +5,7 @@ html {
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	display: flex;
-	justify-content: start;
+	justify-content: flex-start;
 	align-items: center;
 	font-size: 1em;
 	flex-flow: row wrap;
@@ -51,7 +51,7 @@ p {
 header {
 	/*height: 110px;*/
 	border-bottom: 3px solid #77a466;
-	width: 90%;
+	width: 100%;
 }
 
 header h1 {
@@ -91,7 +91,7 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 .top-section,
 .bottom-section {
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: start;
 	align-items: center;
@@ -160,8 +160,10 @@ header nav ul li a{
 }*/
 
 .menu {
+	float: left;
 	list-style: none;
 	padding: 0;
+	display: flex;
 }
 .menu li {
 	padding: 10px 0;
@@ -183,9 +185,9 @@ header nav ul li a{
 footer {
 	/*height: 50px;*/
 	border-top: 3px solid #eee;
-	width: 90%;
+	width: 100%;
 	display: flex;
-	justify-content: start;
+	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
 	/*clear: both;*/

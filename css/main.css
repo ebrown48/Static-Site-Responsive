@@ -54,38 +54,52 @@ header {
 	width: 100%;
 }
 
-header h1 {
-	/*float: left;*/
+/*header h1 {
+	float: left;
 	margin: 0;
 	padding: 38px 0;
-}
+}*/
+
 header h1 span {
 	color: #77a466;
 }
 
-header nav {
-	/*float: right;*/
+h/*eader nav {
+	float: right;
 	padding: 46px 0;
-}
-header nav ul {
+}*/
+
+/*header nav ul {
 	margin: 0;
 	padding: 0;
-}
+}*/
+
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
-	padding: 0 10px;
+	/*padding: 0 10px;*/
 	display: flex;
     justify-content: center;
     align-items: center;
     flex-flow:row wrap;
-	margin: 30px;
+	/*margin: 30px;*/
 
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 50px;
+}
+
+ul {
+	list-style-type: none;
 }
 
 /*The widths are in a percentage!*/
@@ -228,13 +242,26 @@ footer span {
 @media screen and (min-width: 1200px) {
 header {
 	display: flex;
-	align-items: center;
+	justify-content: space-between;
 
 }
 
-ul {
+nav {
 	display: flex;
-	margin: 0px;
-	justify-content: flex-end;
+	flex-direction: row;
 }
+
+/*header nav {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+}*/
+/*nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: flex-start;
+}*/
 }

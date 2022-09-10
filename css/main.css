@@ -29,11 +29,9 @@ h3 {
 }
 h1 {
 	font-size: 30px;
-	display: flex;
-    justify-content: center;
-	align-items: center;
-	text-decoration: underline green;
-
+	text-align: center;
+	padding-bottom: 15px;
+	border-bottom: 3px solid green;
 }
 
 h2 {

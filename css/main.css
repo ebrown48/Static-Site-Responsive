@@ -44,48 +44,28 @@ h3 {
 p {
 	font-size: 14px;
 	line-height: 21px;
-    /*padding: 0 15px;*/
 }
 
 /*The widths are in a percentage!*/
 header {
-	/*height: 110px;*/
 	border-bottom: 3px solid #77a466;
 	width: 100%;
 }
-
-/*header h1 {
-	float: left;
-	margin: 0;
-	padding: 38px 0;
-}*/
 
 header h1 span {
 	color: #77a466;
 }
 
-/*header nav {
-	float: right;
-	padding: 46px 0;
-}
-
-header nav ul {
-	margin: 0;
-	padding: 0;
-}*/
-
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
-	/*padding: 0 10px;*/
 	display: flex;
     justify-content: center;
     align-items: center;
     flex-flow:row wrap;
-	/*margin: 30px;*/
-
 }
+
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
@@ -111,7 +91,6 @@ ul {
 	justify-content: start;
 	align-items: center;
 	flex-flow: row wrap;
-	/*clear: both;*/
 
 }
 
@@ -126,19 +105,11 @@ ul {
 
 }
 
-/*.main-image {
-	height: auto;
-	float: left;
-}*/
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-/*.main-title {
-	height: auto;
-	float: left;
-}*/
 .main-title h2 {
 	text-align: left;
 	padding: 5px 0;
@@ -154,25 +125,7 @@ ul {
 .section-two,
 .section-three {
 	width: 100%;
-	/*height: auto;
-	float: left;
-	border-top: 1px solid #eee;*/
 }
-
-/*.section-one h3 {
-	padding: 10px 0;
-
-}*/
-
-/*.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-
-.section-two h3,
-.section-three h3 {
-	padding: 10px 30px;
-}*/
 
 .menu {
 	list-style: none;
@@ -198,7 +151,6 @@ ul {
 
 /*The widths are in a percentage!*/
 footer {
-	/*height: 50px;*/
 	border-top: 3px solid #eee;
 	width: 100%;
 	display: flex;
@@ -208,6 +160,7 @@ footer {
 	/*clear: both;*/
 	text-align: center;
 }
+
 footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
@@ -229,9 +182,6 @@ footer span {
 	.section-three {
 	width: 30%;
 	border-top: 1px solid #eee;
-	/*height: auto;
-	float: left;
-	display: flex;*/
 	justify-content: center;
 	flex-direction: row;
 }
@@ -270,10 +220,8 @@ footer span {
 	}
 
 	nav {
-		/*display: flex;*/
 		flex-direction: row;
 		width: 40%;
-		/*background-color: red;*/
 	}
 
 	header ul {
@@ -298,18 +246,5 @@ footer span {
 	.address {
 		padding-left: 20px;
 	}
-	/*header nav {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		align-content: flex-start;
-	}*/
-	/*nav {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: flex-end;
-		align-content: flex-start;
-	}*/
 
 }
